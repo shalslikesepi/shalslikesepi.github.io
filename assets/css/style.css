@@ -21,6 +21,8 @@ body::before {
   position: fixed;
   background: #040404 url("../img/hepA.jpg") top right no-repeat;  
   background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
   left: 0;
   right: 0;
   top: 0;
