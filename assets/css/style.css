@@ -67,12 +67,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h1 {
   font-size: 48px;
-  background-color: #000;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
+}
+
+#header h1 span {                   /*delete this whole block if background doesn't need it anymore*/
+  background-color: #000;
 }
 
 #header h1 a, #header h1 a:hover {
@@ -85,13 +88,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   margin-top: 20px;
   color: #fff;
+  background-color: #000;        /* delete this line if background doesn't need it anymore*/
 }
 
 #header h2 span {
   color: #fff;
   border-bottom: 2px solid #00f2ff;
   padding-bottom: 6px;
-  background-color: #000;
+  background-color: #000;            /* delete this line if background doesn't need it anymore*/
 }
 
 #header img {
