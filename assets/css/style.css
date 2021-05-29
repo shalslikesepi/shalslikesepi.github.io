@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/hepA.jpg") top right no-repeat;  
+  background: #040404 url("../img/HIV.jpg") top right no-repeat;  
   background-size: cover;
   filter: blur(8px);
   -webkit-filter: blur(8px);
