@@ -22,6 +22,7 @@ body::before {           /* Background */
   background: #040404 url("../img/HIV.jpg") top right no-repeat;  
   background-size: cover;
   filter: blur(5px);
+  transform: scale (1.03);
   left: 0;
   right: 0;
   top: 0;
