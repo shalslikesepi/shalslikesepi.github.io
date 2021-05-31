@@ -94,6 +94,50 @@ h1, h2, h3, h4, h5, h6 {
   50% { border-color: yellow; }
 }
 
+/* test */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.typer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.typer p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.typer p span.typed-text {
+  font-weight: normal;
+  color: #dd7732;
+}
+.typer p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.typer p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
