@@ -22,6 +22,11 @@ body::before {           /* Background */
   background: #040404 url("../img/HIV.jpg") top right no-repeat;  
   background-size: cover;
   filter: blur(4px);
+  -webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1); /* scale seems to automatically cancel out any rotate */
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
   left: 0;
   right: 0;
   top: 0;
