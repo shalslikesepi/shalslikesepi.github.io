@@ -97,9 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 /* test */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  padding: 70px 0 60px;
 }
 
 .typer {
@@ -110,16 +108,20 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(255, 255, 255, 0.08);
 }
 .typer p {
-  font-size: 3rem;
-  padding: 0.5rem;
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-  text-align: center;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  color: #00f2ff;
+  border-radius: 50px;
   overflow: hidden;
 }
 .typer p span.typed-text {
   font-weight: normal;
-  color: #dd7732;
+  color: #00f2ff;
 }
 .typer p span.cursor {
   display: inline-block;
