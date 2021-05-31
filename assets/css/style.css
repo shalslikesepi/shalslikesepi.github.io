@@ -490,6 +490,7 @@ section .container {
   padding: 12px;
   color: #00f2ff;
   border-radius: 50px;
+  white-space: nowrap;
 }
 
 .counts .count-box span {
