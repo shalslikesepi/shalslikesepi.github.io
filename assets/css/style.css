@@ -8,10 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {                /* text background for transparent pages */
+body {                
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
-  color: #fff;
+  color: #fff;                     /* text background for all body sections */
   position: relative;
   background: transparent;
 }
