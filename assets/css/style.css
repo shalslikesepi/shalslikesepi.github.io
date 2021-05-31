@@ -8,7 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {                /* Background + general header text (?) */
+body {                /* text background for transparent pages */
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
   color: #fff;
