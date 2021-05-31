@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
-  animation: move 50s linear infinite;
+  animation: move 90s linear infinite;
 }
 
 @keyframes move {
