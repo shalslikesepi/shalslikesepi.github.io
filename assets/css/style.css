@@ -23,6 +23,7 @@ body::before {           /* Background */
   background-size: cover;
   filter: blur(5px);
   transform: scale (1.10);
+  overflow: hidden;
   left: 0;
   right: 0;
   top: 0;
