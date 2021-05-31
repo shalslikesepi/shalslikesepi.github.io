@@ -73,11 +73,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* test */
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .typer {
   padding: 30px 30px 25px 30px;
   width: 100%;
