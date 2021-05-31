@@ -103,10 +103,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .typer {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.08);
 }
 .typer p {
   font-size: 3rem;
