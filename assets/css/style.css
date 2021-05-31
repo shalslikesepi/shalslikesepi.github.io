@@ -19,15 +19,12 @@ body {
 body::before {           /* Background */
   content: "";
   position: fixed;
-  background: #040404 url("../img/HIV.jpg") center center no-repeat;  
-  background-size: 100% auto;
-  filter: blur(5px);
-  transform: scale (1.10);
-  overflow: hidden;
+  background: #040404 url("../img/HIV.jpg") top right no-repeat;  
+  background-size: cover;
+  filter: blur(2px);
   left: 0;
   right: 0;
   top: 0;
-  bottom: 0;
   height: 100vh;
   z-index: -1;
   margin: -10px;
