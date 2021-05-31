@@ -506,19 +506,19 @@ section .container {
   font-size: 14px;
 }
 
-.counts p span.typed-text {       /* new */
+.counts .count-box p span.typed-text {       /* new */
   font-weight: bold;
   color: #dd7732;
 }
 
-.counts p span.cursor {
+.counts .count-box p span.cursor {
   display: inline-block;
   background-color: #ccc;
   margin-left: 0.1rem;
   width: 3px;
   animation: blink 1s infinite;
 }
-.counts p span.cursor.typing {
+.counts .count-box p span.cursor.typing {
   animation: none;
 }
 @keyframes blink {
