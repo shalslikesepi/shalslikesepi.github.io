@@ -1316,7 +1316,8 @@ section .container {
   display: grid;
   grid-template-columns: repeat(5, minmax(200px, 1fr));
   grid-gap: 1rem;
-  > div {
+ 
+div {
     background: white;
     padding: 1rem;
     position: relative;
@@ -1325,7 +1326,8 @@ section .container {
       display: block;
       padding-bottom: 100%;
     }
-    img {
+  
+img {
       position: absolute;
       max-width: 80%;
 
