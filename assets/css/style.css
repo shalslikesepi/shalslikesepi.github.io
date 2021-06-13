@@ -1355,8 +1355,7 @@ section .container {
 
 .tweets-child {
     flex: 1;
+    margin: auto;
 }  
 
-.tweets-child:first-child {
-  margin: auto;
-} 
+
