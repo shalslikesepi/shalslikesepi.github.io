@@ -1312,30 +1312,4 @@ section .container {
 # Logos grid
 --------------------------------------------------------------*/
 
-.row {
-  margin:auto;
-}
 
-.logo-wrapper {
-  height:200px;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  text-align:center;
-  border:solid 1px #eee;
-  background-color: #fff;
-}
-
-.logo-wrapper img {
-  max-height:100px;
-  max-width:100%;
-}
-
-.logo-wrapper a {
-  filter:grayscale(1);
-  transition:all ease 0.6s;
-}
-
-.logo-wrapper a:hover {
-  filter:grayscale(0);
-}
