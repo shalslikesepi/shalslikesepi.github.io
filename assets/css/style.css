@@ -1321,7 +1321,6 @@ section .container {
     padding: 1rem;
     position: relative;
     &::before {
-      // for apsect ratio
       content: "";
       display: block;
       padding-bottom: 100%;
@@ -1329,13 +1328,6 @@ section .container {
     img {
       position: absolute;
       max-width: 80%;
-
-      // Alternate Version
-      // top: 0;
-      // bottom: 0;
-      // right: 0;
-      // left: 0;
-      // margin: auto;
 
       top: 50%;
       left: 50%;
