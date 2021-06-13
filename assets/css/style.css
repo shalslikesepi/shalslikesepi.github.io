@@ -1319,20 +1319,27 @@ section .container {
   > div {
     background: black;
     padding: 1rem;
-    display: grid;
-    place-items: center;
+    position: relative;
     &::before {
       // for apsect ratio
       content: "";
       display: block;
       padding-bottom: 100%;
-      grid-area: 1 / 1 / 2 / 2;
     }
     img {
-      width: 100%;
-      // height: 100%;
-      // object-fit: contain;
-      grid-area: 1 / 1 / 2 / 2;
+      position: absolute;
+      max-width: 100%;
+
+      // Alternate Version
+      // top: 0;
+      // bottom: 0;
+      // right: 0;
+      // left: 0;
+      // margin: auto;
+
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
   }
 }
