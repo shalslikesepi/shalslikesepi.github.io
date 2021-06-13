@@ -1313,7 +1313,7 @@ section .container {
 --------------------------------------------------------------*/
 
 .row {
-  margin:0;
+  margin:auto;
 }
 
 .logo-wrapper {
