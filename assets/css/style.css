@@ -1351,11 +1351,13 @@ section .container {
 
 .tweets-container {
     display: flex;
+    text-align: center;
 }
 
 .tweets-child {
     flex: 1;
-    margin: auto;
+    display: inline-block;
+    
 }  
 
 
