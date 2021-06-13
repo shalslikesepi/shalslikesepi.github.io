@@ -1351,7 +1351,6 @@ section .container {
 
 .tweets-container {
     display: flex;
-    align-items: center;
 }
 
 .tweets-child {
@@ -1359,5 +1358,5 @@ section .container {
 }  
 
 .tweets-child:first-child {
-  margin: 0px;
+  margin-left: 20px;
 } 
