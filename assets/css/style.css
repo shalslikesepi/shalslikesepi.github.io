@@ -1340,3 +1340,23 @@ section .container {
       grid-area: 1 / 1 / 2 / 2;
     }
 
+
+
+
+
+/*--------------------------------------------------------------
+# Tweets
+--------------------------------------------------------------*/
+
+
+.tweets-container {
+    display: flex;
+}
+
+.tweets-child {
+    flex: 1;
+}  
+
+.tweets-child:first-child {
+  margin: 0px;
+} 
