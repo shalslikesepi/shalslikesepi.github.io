@@ -1323,6 +1323,7 @@ section .container {
   justify-content:center;
   text-align:center;
   border:solid 1px #eee;
+  background-color: #fff;
 }
 
 .logo-wrapper img {
