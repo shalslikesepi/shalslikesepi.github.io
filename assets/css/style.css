@@ -1308,3 +1308,31 @@ section .container {
 }
 
 
+
+/*--------------------------------------------------------------
+# Logos
+--------------------------------------------------------------*/
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+> div {
+    background: white;
+    padding: 1rem;
+    display: grid;
+    place-items: center;
+    &::before {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+      grid-area: 1 / 1 / 2 / 2;
+    }  
+  img {
+      width: 90%;
+      height: 100%;
+      object-fit: contain;
+      grid-area: 1 / 1 / 2 / 2;
+    }
+  }
+}
