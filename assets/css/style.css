@@ -13,7 +13,6 @@ body {
   background-color: #fff;
   color: #040404;                     /* text background for all body sections */
   position: relative;
-  background: transparent;
 }
 
 body::before {           /* Background */
