@@ -19,7 +19,7 @@ body {
 body::before {           /* Background */
   content: "";
   position: fixed;
-  background: #040404 url("../img/HIV.jpg") top right no-repeat;  
+  background: #040404 url("../img/ezgif.com-gif-maker.webp") top right no-repeat;  
   background-size: cover;
   filter: blur(4px);
   -webkit-filter: blur(4px);
