@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 span {                 /* Headline underlined portion */
   color: #040404;
-  border-bottom: 2px solid #00f2ff;
+  border-bottom: 2px solid #040404;
   padding-bottom: 6px;
 }
 
@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #040404;
 }
 
 .mobile-nav {
@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0);
+  background: #fff;
 }
 
 #header.header-top .social-links, #header.header-top h2 {
@@ -512,7 +512,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(204, 204, 204, 0.1);
   transition: ease-in-out 0.3s;
 }
 
@@ -532,7 +532,7 @@ section .container {
 }
 
 .interests .icon-box:hover {
-  background: rgba(0, 0, 0, 8);
+  background: rgba(0, 0, 0, 0);
 }
 
 /*--------------------------------------------------------------
@@ -609,7 +609,7 @@ section .container {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #00f2ff !important;
+  background-color: #040404 !important;
 }
 
 @media (max-width: 767px) {
