@@ -440,7 +440,7 @@ section .container {
   width: 100%;
   position: relative;
   text-align: center;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(204, 204, 204, 0.1);
 }
 
 .counts .count-box i {
@@ -755,7 +755,7 @@ section .container {
 }
 
 .experience .icon-box:hover h4 a, .experience .icon-box:hover p {
-  color: #fff;
+  color: #040404;
 }
 
 /*--------------------------------------------------------------
