@@ -421,7 +421,7 @@ section .container {
 .about-me .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #00f2ff;
+  color: #040404;
 }
 
 .about-me .content p:last-child {
@@ -642,7 +642,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #00f2ff;
+  color: #040404;
   margin-bottom: 10px;
 }
 
@@ -751,7 +751,7 @@ section .container {
 }
 
 .experience .icon-box:hover .icon::before {
-  background: #00f2ff;
+  background: rgba(204, 204, 204, 0.1);
 }
 
 .experience .icon-box:hover h4 a, .experience .icon-box:hover p {
@@ -790,7 +790,7 @@ section .container {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #00b3bd;
+  background: rgba(204, 204, 204, 0.1);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -890,7 +890,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #00f2ff;
+  color: #040404;
 }
 
 .portfolio .portfolio-wrap:hover::before {
