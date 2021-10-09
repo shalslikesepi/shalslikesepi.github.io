@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #fff;
+  color: #040404;
   line-height: 1;
   display: inline-block;
 }
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {                /* Nav for home page AND top nav */
   display: block;
   position: relative;
-  color: #040404;
+  color: #fff;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #fff;
+  color: #040404;
   text-decoration: none;
 }
 
