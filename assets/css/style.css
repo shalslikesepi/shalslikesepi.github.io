@@ -790,8 +790,8 @@ section .container {
   border-radius: 4px;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: rgba(204, 204, 204, 0.1);
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {           /*filter boxes */
+  background: rgba(192,192,192,0.3);
 }
 
 .portfolio #portfolio-flters li:last-child {
