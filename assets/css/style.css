@@ -441,7 +441,7 @@ section .container {
   width: 100%;
   position: relative;
   text-align: center;
-  background: rgba(204, 204, 204, 0.1);
+  background: rgba(192,192,192,0.3);
 }
 
 .counts .count-box i {
@@ -513,7 +513,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: rgba(204, 204, 204, 0.1);
+  background: rgba(192,192,192,0.3);
   transition: ease-in-out 0.3s;
 }
 
@@ -550,7 +550,7 @@ section .container {
   margin: -40px 0 0 40px;
   position: relative;
   z-index: 2;
-  border: 6px solid rgba(255, 255, 255, 0.12);
+  border: 6px solid rgba(192,192,192,0.3);
 }
 
 .testimonials .testimonials-item h3 {
@@ -685,7 +685,7 @@ section .container {
 --------------------------------------------------------------*/
 .experience .icon-box {
   text-align: center;
-  background: rgba(204, 204, 204, 0.1);
+  background: rgba(192,192,192,0.3);
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
 }
