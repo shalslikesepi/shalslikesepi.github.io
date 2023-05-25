@@ -1321,7 +1321,7 @@ section .container {
 }
 
 .tweets-child {
-    flex:1 1 800px;
+    flex:1 1 200px;
     display: inline-block;
     
 }  
