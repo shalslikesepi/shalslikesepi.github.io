@@ -1316,8 +1316,6 @@ section .container {
 .tweets-container {
     display: flex;
     text-align: center;
-    flex-wrap: wrap;
-    overflow: hidden;
 }
 
 .tweets-child {
