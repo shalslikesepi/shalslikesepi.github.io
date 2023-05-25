@@ -1316,10 +1316,11 @@ section .container {
 .tweets-container {
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .tweets-child {
-    flex: 1;
+    flex:1 1 200px;
     display: inline-block;
     
 }  
